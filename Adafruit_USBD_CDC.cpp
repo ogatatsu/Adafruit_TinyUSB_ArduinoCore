@@ -24,13 +24,14 @@
 
 #ifdef USE_TINYUSB
 
-#include "Arduino.h"
 #include "Adafruit_USBD_CDC.h"
 
 #define EPOUT   0x00
 #define EPIN    0x80
 
-Adafruit_USBD_CDC Serial;
+Adafruit_USBD_CDC SerialUSB;
+
+extern void Adafruit_TinyUSB_Core_touch1200(void);
 
 Adafruit_USBD_CDC::Adafruit_USBD_CDC(void)
 {

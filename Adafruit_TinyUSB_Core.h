@@ -29,6 +29,7 @@
 #error TinyUSB is not selected, please select it in Tools->Menu->USB Stack
 #endif
 
+#include "Arduino.h"
 #include "tusb.h"
 
 #ifdef __cplusplus

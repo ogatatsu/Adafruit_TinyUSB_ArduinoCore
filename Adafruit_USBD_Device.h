@@ -25,6 +25,7 @@
 #ifndef ADAFRUIT_USBD_DEVICE_H_
 #define ADAFRUIT_USBD_DEVICE_H_
 
+#include "Arduino.h"
 #include "tusb.h"
 
 class Adafruit_USBD_Interface
